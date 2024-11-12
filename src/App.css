@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* App.css */
+.center-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height to center vertically */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  nav{
+    color: blue;
   }
-  to {
-    transform: rotate(360deg);
+  .center-heading {
+    text-align: center;
+    margin-top: 20px; /* Optional: Add space at the top */
   }
-}
+  .backBtn{
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            padding: 10px 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          
+  }
+  .form-border {
+    font-size: 14px; 
+    width: 400px; 
+    margin: 0 auto;
+    height: 400px;
+    border: 5px solid #ccc; /* Border color and width */
+    padding: 20px; /* Add padding inside the form */
+    border-radius: 5px; /* Optional: round the corners */
+    margin: 20px; /* Optional: space around the form */
+  }  
+  .form-border2 {
+    font-size: 14px; 
+    width: 400px; 
+    margin: 0 auto;
+    height: 500px;
+    border: 5px solid #ccc; /* Border color and width */
+    padding: 20px; /* Add padding inside the form */
+    border-radius: 5px; /* Optional: round the corners */
+    margin: 20px; /* Optional: space around the form */
+  }  
+
+  
+  .center-buttons {
+    display: flex;
+    flex-direction: column;  /* Stack buttons vertically */
+    align-items: center;     /* Center buttons horizontally */
+    gap: 10px;               /* Optional: Add space between buttons */
+    margin-top: 20px;
+  }
+  
+
